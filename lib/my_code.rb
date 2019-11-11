@@ -19,4 +19,5 @@ if starting_point
      start = yield(start, array[i])
      i += 1
    end
+   start
 end
