@@ -14,11 +14,11 @@ if starting_point
    index = 0
  else
  end
-   start = array[i]
+   new_num = array[i]
    i = 1
    while i < array.length do
-     start = yield(start, array[i])
+     new_num = yield(new_num, array[i])
      i += 1
    end
-   start
+   new_num
 end
