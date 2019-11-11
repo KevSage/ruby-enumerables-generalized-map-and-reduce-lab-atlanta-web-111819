@@ -14,7 +14,7 @@ if starting_point
    index = 0
  else
  end
-   new_num = array[index]
+   new_num = array[0]
    index = 1
    while index < array.length do
      new_num = yield(new_num, array[index])
